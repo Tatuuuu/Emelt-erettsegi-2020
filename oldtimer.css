@@ -1,0 +1,41 @@
+body {
+    padding-top: 56px;
+    font-family: sans-serif;
+
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -56px;
+}
+
+section {
+    padding-bottom: 25px;
+    border-bottom: 2px solid #9696969c;
+}
+
+#diasor {
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+li{
+    color:white;
+}
+/*3. Az egész dokumentumra vonatkozóan a használt generikus betűcsalád sans-serif legyen.
+ Állítson be háttérszínnek #1714149c értéket minden dia-elem-szovegdoboz osztályú elemre! */
+.dia-elem-szovegdoboz {
+    background-color: #1714149c;
+}
+/*7. Állítsa be a dokumentum navigációs sávján (<nav>) belül a betűvastagságot a következők szerint:
+ állapítsa meg böngészőjének fejlesztői eszköze segítségével,
+ hogy mennyi az aktuális vastagság, és állítson be ennél 200 egységgel nagyobb értéket! */
+nav {
+    font-weight: 600;
+}
